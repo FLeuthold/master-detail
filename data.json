@@ -1,0 +1,25 @@
+{
+  "personen": [
+    {
+      "emails": ["flavlio@klo.ch", "fulvio@gasu.be"],
+      "hardware": ["compilter-hause", "alte-scheisse"],
+      "software": ["kompäilr", "werd", "salami-chat"],
+      "id": "1000",
+      "name": "John Doe"
+    },
+    {
+      "emails": ["joe@klo.ch", "joe@gasu.be"],
+      "hardware": ["kompi-hause", "neue-scheisse"],
+      "software": ["assembler", "exu", "adoop"],
+      "id": "1001",
+      "name": "Jane Doe"
+    },
+    {
+      "emails": ["jesoph@klo.ch", "fogel@gasu.be"],
+      "hardware": ["stein-hause", "uralte-scheisse"],
+      "software": ["stock", "faden", "stein"],
+      "id": "1002",
+      "name": "Bob Smith"
+    }
+  ]
+}

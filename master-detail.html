@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Master-Detail View</title>
+<!-- <link rel="stylesheet" href="style.css">  -->
+<style>
+table {
+    width:100%;
+    table-layout: fixed;
+}
+.active {
+      background-color: #ddd;
+}
+input {
+    width: 95%;
+     
+}
+
+
+
+
+
+ </style>
+</head>
+<body>
+  <!-- Master Table -->
+  <table border="1">
+    <thead>
+      <tr>
+		<th>EmployeeNr</th>
+        <th>Name</th>
+		<th>Aktion</th>
+      </tr>
+    </thead>
+    <tbody id="masterbody">
+    </tbody>
+	<tfoot>
+		<td><input size="" id="nrinput" type="number" value='0'></td>
+		<td><input size="" id="nameinput" type="text"> </td>
+		<td><button class="link-button">insert</button></td>
+	</tfoot>
+  </table>
+  <!-- Detail Tab Container -->
+  <div class="tab">
+    <button type="button" id="btnSoftware" class="tablinks" onclick="openTab('Software')">Software</button>
+    <button type="button" id="btnHardware" class="tablinks" onclick="openTab('Hardware')">Hardware</button>
+    <button type="button" id="btnEmail" class="tablinks" onclick="openTab('Email')">Email Addresses</button>
+  </div>
+
+  <!-- Detail Tab Content -->
+  <div id="contentSoftware" class="tabcontent">
+    <table border="1" id="tabSoftware">
+          <th>Software</th>
+    </table>
+  </div>
+
+  <div id="contentHardware" class="tabcontent">
+    <table border="1" id="tabHardware">
+          <th>Hardware</th>
+    </table>
+  </div>
+
+  <div id="contentEmail" class="tabcontent">
+    <table border="1" id="tabEmail">
+		<th>Email Addresses</th>
+    </table>
+  </div>
+  
+  
+  <script src='script.js' defer>
+  
+
+  </script>
+
+</body
+
